@@ -12,7 +12,7 @@ namespace AutoUpdate
         static void Main(string[] args)
         {
             Console.Clear();
-            Console.WriteLine("Running release version!");
+            Console.WriteLine("Running release version! Edited on Github just now.");
             while (true)
             {
              
