@@ -11,7 +11,7 @@ namespace AutoUpdate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Running release version!");
+            Console.WriteLine("Server running");
             while (true)
             {
                 var input = Console.ReadLine();
