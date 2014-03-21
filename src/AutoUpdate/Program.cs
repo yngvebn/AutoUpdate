@@ -11,9 +11,15 @@ namespace AutoUpdate
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.WriteLine("Server running");
+=======
+            Console.Clear();
+            Console.WriteLine("Running release version!");
+>>>>>>> dsafasfa
             while (true)
             {
+             
                 var input = Console.ReadLine();
                 if (input != null && input.Equals("update", StringComparison.InvariantCultureIgnoreCase))
                 {
@@ -22,6 +28,10 @@ namespace AutoUpdate
                     process.StartInfo.Arguments = @".\update.ps1";
                     process.Start();
                     Environment.Exit(99);
+                }
+                if (input != null && input.Equals("cls", StringComparison.InvariantCultureIgnoreCase))
+                {
+                    Console.Clear();
                 }
             }
         }
