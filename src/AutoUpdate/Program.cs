@@ -11,7 +11,7 @@ namespace AutoUpdate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Running new version! Wow! This works!");
+            Console.WriteLine("Running new version! Wow! This works! Someone else pushed this");
             while (true)
             {
                 var input = Console.ReadLine();
